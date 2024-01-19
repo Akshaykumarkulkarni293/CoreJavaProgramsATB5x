@@ -1,7 +1,22 @@
 package src.basics_005_23rdDec2023;
 
 public class Lab040 {
+
     public static void main(String[] args) {
-        System.out.println("Normal Push Checking");
+
+        // Switch -> Condition -> x -> multiple -> break!
+        // break -> pull you out of the current loop
+
+        if (true) {
+            System.out.println("True condition");
+        }
+
+        // Condition -> One time
+        int a = 10;
+        if (a > 10 && a < 5) {
+            System.out.println("Yes");
+            // break; -> Not possible with the if and else Condition ->
+            /// other Loops -> for, while, do while - break and continue.
+        }
     }
 }

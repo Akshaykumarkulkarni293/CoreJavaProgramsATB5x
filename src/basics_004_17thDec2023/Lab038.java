@@ -9,8 +9,8 @@ public class Lab038 {
     // and print the result.
     // (x^2 + Y^2 - |Z| )^3
 
-
             public static void main(String[] args) {
+
                 Scanner sc = new Scanner(System.in);
                 System.out.println("Enter the value of x:");
                 double x = sc.nextDouble();
@@ -19,8 +19,14 @@ public class Lab038 {
                 System.out.println("Enter the value of z:");
                 double z = sc.nextDouble();
 
-                double cube_root = Math.cbrt(x * x+ y * y-Math.abs(z));
-                System.out.println("Result:"+cube_root);
+                double results = 0;
+
+                double Results;
+                Results = Math.cbrt(Math.pow(x,2) + Math.pow(y,2) - Math.abs(z));
+                System.out.println(Results);
+
+                // Scanner steam should be closed after we are done
+                sc.close();
 
             }
         }
