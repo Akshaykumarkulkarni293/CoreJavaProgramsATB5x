@@ -11,7 +11,7 @@ public class Lab030 {
 
         // Switch Condition
 
-        //Condition based - Multiple condtion
+        //Condition based - Multiple condition
         String day = null;
 
         // Which day is today!!
