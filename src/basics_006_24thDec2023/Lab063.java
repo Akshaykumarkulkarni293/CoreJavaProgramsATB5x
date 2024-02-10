@@ -2,8 +2,9 @@ package src.basics_006_24thDec2023;
 
 import java.util.Scanner;
 
-public class Lab062 {
+public class Lab063 {
     public static void main(String[] args) {
+
 
         Scanner sc = new Scanner(System.in);
         float [] marks = new float[5];
@@ -20,11 +21,14 @@ public class Lab062 {
         marks[4] = sc.nextFloat();
 
         for (int i = 0; i < marks.length; i++) {
+            if (marks[i] < 35) {
+                System.out.println("You are failed in this subject " + marks[i]);
+            }
+            else {
+                System.out.println("You are passed in this subject " + marks[i]);
+            }
             System.out.println(marks[i]);
         }
-
-       sc.close();
-
 
 
     }
