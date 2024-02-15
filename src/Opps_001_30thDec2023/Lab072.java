@@ -8,9 +8,9 @@ public class Lab072 {
 
 
 
-    public static void main(String[] args) {
-        System.out.println("Hi");
-    }
+//    public static void main(String[] args) {
+//        System.out.println("Hi");
+//    }
 
     public static int main(int a) {
       return 99;
