@@ -1,11 +1,7 @@
-package src.Opps_001_30thDec2023;
+package src.basics_007_30thDec2023;
 
-import java.util.Scanner;
-
-//Swapping of two string using temp variable
-
-public class Lab076 {
-
+//Swapping of Two String without-using temp variable
+public class Lab078 {
     public static void main(String[] args) {
 
         String a = "Akshay";
@@ -16,9 +12,9 @@ public class Lab076 {
         System.out.println("name of a is  --> "  +a);
         System.out.println("name of b is --> "  +b);
 
-        String temp = a;
-        a = b;
-        b = temp;
+        a = a+b;
+        b = a.substring(0, a.length() - b.length());
+        a = a.substring(b.length());
 
         //After Swapping
         System.out.println("After Swapping");
@@ -26,7 +22,7 @@ public class Lab076 {
         System.out.println("name of b is --> "  +b);
 
 
-
     }
+
 }
 
